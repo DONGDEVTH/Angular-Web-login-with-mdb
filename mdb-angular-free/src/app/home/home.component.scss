@@ -1,0 +1,34 @@
+
+c {
+    height: calc(2.0125rem + 1px);
+    font-size: 1.2rem !important;
+      }
+ c {
+    letter-spacing: 1px;
+  }
+c {
+    -moz-tab-size: 10; /* Firefox */
+    -o-tab-size: 10; /* Opera 10.6-12.1 */
+    tab-size: 15;
+  }
+  c {
+    margin-top: -0.25rem !important;
+    }
+
+
+
+    .bc-icons .breadcrumb-item+.breadcrumb-item::before {
+      content: none;
+    }
+    
+    .bc-icons {
+      mdb-breadcrumb {
+        mdb-breadcrumb-item.active {
+          .breadcrumb-item {
+            color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+
